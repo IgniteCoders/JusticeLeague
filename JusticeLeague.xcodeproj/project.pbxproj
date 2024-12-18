@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		B2D9D3EC2D13244300B1BF49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9D3EB2D13244300B1BF49 /* AppDelegate.swift */; };
 		B2D9D3EE2D13244300B1BF49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9D3ED2D13244300B1BF49 /* SceneDelegate.swift */; };
-		B2D9D3F02D13244300B1BF49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9D3EF2D13244300B1BF49 /* ViewController.swift */; };
+		B2D9D3F02D13244300B1BF49 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9D3EF2D13244300B1BF49 /* MainViewController.swift */; };
 		B2D9D3F32D13244300B1BF49 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B2D9D3F22D13244300B1BF49 /* Base */; };
 		B2D9D3F52D13244500B1BF49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D9D3F42D13244500B1BF49 /* Assets.xcassets */; };
 		B2D9D3F82D13244500B1BF49 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B2D9D3F72D13244500B1BF49 /* Base */; };
+		B2D9D4032D132A9F00B1BF49 /* SuperheroResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9D4022D132A9F00B1BF49 /* SuperheroResponse.swift */; };
+		B2D9D4052D132CEE00B1BF49 /* SuperheroProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9D4042D132CEE00B1BF49 /* SuperheroProvider.swift */; };
+		B2D9D4082D1332C800B1BF49 /* SuperheroViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9D4072D1332C800B1BF49 /* SuperheroViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B2D9D3E82D13244300B1BF49 /* JusticeLeague.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JusticeLeague.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D9D3EB2D13244300B1BF49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2D9D3ED2D13244300B1BF49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B2D9D3EF2D13244300B1BF49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2D9D3EF2D13244300B1BF49 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B2D9D3F22D13244300B1BF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2D9D3F42D13244500B1BF49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2D9D3F72D13244500B1BF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2D9D3F92D13244500B1BF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2D9D4022D132A9F00B1BF49 /* SuperheroResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroResponse.swift; sourceTree = "<group>"; };
+		B2D9D4042D132CEE00B1BF49 /* SuperheroProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroProvider.swift; sourceTree = "<group>"; };
+		B2D9D4072D1332C800B1BF49 /* SuperheroViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,50 @@
 		B2D9D3EA2D13244300B1BF49 /* JusticeLeague */ = {
 			isa = PBXGroup;
 			children = (
+				B2D9D4012D13263600B1BF49 /* Data */,
+				B2D9D4002D1324F400B1BF49 /* Views */,
+				B2D9D3FF2D1324E300B1BF49 /* ViewControllers */,
+				B2D9D4062D13329000B1BF49 /* ViewCells */,
 				B2D9D3EB2D13244300B1BF49 /* AppDelegate.swift */,
 				B2D9D3ED2D13244300B1BF49 /* SceneDelegate.swift */,
-				B2D9D3EF2D13244300B1BF49 /* ViewController.swift */,
-				B2D9D3F12D13244300B1BF49 /* Main.storyboard */,
 				B2D9D3F42D13244500B1BF49 /* Assets.xcassets */,
-				B2D9D3F62D13244500B1BF49 /* LaunchScreen.storyboard */,
 				B2D9D3F92D13244500B1BF49 /* Info.plist */,
 			);
 			path = JusticeLeague;
+			sourceTree = "<group>";
+		};
+		B2D9D3FF2D1324E300B1BF49 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2D9D3EF2D13244300B1BF49 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B2D9D4002D1324F400B1BF49 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2D9D3F12D13244300B1BF49 /* Main.storyboard */,
+				B2D9D3F62D13244500B1BF49 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B2D9D4012D13263600B1BF49 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B2D9D4022D132A9F00B1BF49 /* SuperheroResponse.swift */,
+				B2D9D4042D132CEE00B1BF49 /* SuperheroProvider.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B2D9D4062D13329000B1BF49 /* ViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				B2D9D4072D1332C800B1BF49 /* SuperheroViewCell.swift */,
+			);
+			path = ViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +179,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2D9D3F02D13244300B1BF49 /* ViewController.swift in Sources */,
+				B2D9D3F02D13244300B1BF49 /* MainViewController.swift in Sources */,
 				B2D9D3EC2D13244300B1BF49 /* AppDelegate.swift in Sources */,
+				B2D9D4032D132A9F00B1BF49 /* SuperheroResponse.swift in Sources */,
+				B2D9D4052D132CEE00B1BF49 /* SuperheroProvider.swift in Sources */,
+				B2D9D4082D1332C800B1BF49 /* SuperheroViewCell.swift in Sources */,
 				B2D9D3EE2D13244300B1BF49 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
