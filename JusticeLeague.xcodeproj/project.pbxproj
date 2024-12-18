@@ -17,6 +17,7 @@
 		B2D9D4052D132CEE00B1BF49 /* SuperheroProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9D4042D132CEE00B1BF49 /* SuperheroProvider.swift */; };
 		B2D9D4082D1332C800B1BF49 /* SuperheroViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9D4072D1332C800B1BF49 /* SuperheroViewCell.swift */; };
 		B2D9D40B2D133D4E00B1BF49 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9D40A2D133D4E00B1BF49 /* UIImageViewExtensions.swift */; };
+		B2D9D40D2D13445C00B1BF49 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9D40C2D13445C00B1BF49 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B2D9D4042D132CEE00B1BF49 /* SuperheroProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroProvider.swift; sourceTree = "<group>"; };
 		B2D9D4072D1332C800B1BF49 /* SuperheroViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroViewCell.swift; sourceTree = "<group>"; };
 		B2D9D40A2D133D4E00B1BF49 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtensions.swift; sourceTree = "<group>"; };
+		B2D9D40C2D13445C00B1BF49 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				B2D9D3EF2D13244300B1BF49 /* MainViewController.swift */,
+				B2D9D40C2D13445C00B1BF49 /* DetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				B2D9D4052D132CEE00B1BF49 /* SuperheroProvider.swift in Sources */,
 				B2D9D4082D1332C800B1BF49 /* SuperheroViewCell.swift in Sources */,
 				B2D9D3EE2D13244300B1BF49 /* SceneDelegate.swift in Sources */,
+				B2D9D40D2D13445C00B1BF49 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

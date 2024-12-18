@@ -43,6 +43,7 @@
                                         <connections>
                                             <outlet property="avatarImageView" destination="8Qf-DP-qNw" id="Etu-vK-kgh"/>
                                             <outlet property="nameLabel" destination="x9S-Zr-mUj" id="HaG-Er-rKV"/>
+                                            <segue destination="6hJ-1D-FEB" kind="show" id="zdQ-Mq-QL5"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -64,6 +65,51 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="17.557251908396946" y="-2.1126760563380285"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="wUK-ma-rcy">
+            <objects>
+                <viewController id="6hJ-1D-FEB" customClass="DetailViewController" customModule="JusticeLeague" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FNf-W3-4y2">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yvf-y4-g93" userLabel="Content View">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wGi-vV-ERC">
+                                        <rect key="frame" x="8" y="8" width="377" height="508"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JQz-C9-LXJ">
+                                        <rect key="frame" x="8" y="524" width="377" height="48"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Si-u1-4uZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Si-u1-4uZ" firstAttribute="bottom" secondItem="Yvf-y4-g93" secondAttribute="bottom" id="6dV-p0-uM3"/>
+                            <constraint firstItem="Yvf-y4-g93" firstAttribute="leading" secondItem="6Si-u1-4uZ" secondAttribute="leading" id="Pc9-0n-Gwh"/>
+                            <constraint firstItem="Yvf-y4-g93" firstAttribute="top" secondItem="6Si-u1-4uZ" secondAttribute="top" id="dWg-cT-ox6"/>
+                            <constraint firstItem="6Si-u1-4uZ" firstAttribute="trailing" secondItem="Yvf-y4-g93" secondAttribute="trailing" id="nZL-As-ZME"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="TqG-XL-C2g"/>
+                    <connections>
+                        <outlet property="avatarImageView" destination="wGi-vV-ERC" id="m9a-ag-F5z"/>
+                        <outlet property="nameLabel" destination="JQz-C9-LXJ" id="qcO-rv-zSU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bhO-je-V8L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="890.83969465648852" y="-2.1126760563380285"/>
         </scene>
     </scenes>
     <resources>
