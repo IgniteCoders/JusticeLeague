@@ -10,6 +10,7 @@ import UIKit
 class SuperheroViewCell: UITableViewCell {
 
     @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var avatarImageView: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -20,5 +21,10 @@ class SuperheroViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    
+    func render(superhero: Superhero) {
+        nameLabel.text = superhero.name
+        avatarImageView.loadFrom(url: superhero.image.url)
     }
 }
