@@ -49,7 +49,7 @@ class MainViewController: UIViewController, UISearchBarDelegate, UICollectionVie
     // MARK: UICollectionViewDelegateFlowLayout
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let columns = 3
+        let columns = 2
         let spacing = (collectionView.collectionViewLayout as! UICollectionViewFlowLayout).minimumInteritemSpacing
         let screenWidth = collectionView.frame.size.width
         let leftSpace = screenWidth - spacing * CGFloat(columns - 1)

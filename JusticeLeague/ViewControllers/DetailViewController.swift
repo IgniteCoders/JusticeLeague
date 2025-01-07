@@ -21,6 +21,9 @@ class DetailViewController: UIViewController {
         navigationItem.title = superhero.name
         nameLabel.text = superhero.name
         avatarImageView.loadFrom(url: superhero.image.url)
+        
+        avatarImageView.roundCorners(radius: 24)
+        avatarImageView.setShadow()
     }
     
 
