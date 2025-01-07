@@ -14,6 +14,10 @@ class SuperheroProvider {
         
         let (data, _) = try await URLSession.shared.data(from: url)
         
+        /*if let str = String(data: data, encoding: .utf8) {
+            print("Successfully decoded: \(str)")
+        }*/
+        
         let result = try JSONDecoder().decode(SuperheroResponse.self, from: data)
         
         return result.results
