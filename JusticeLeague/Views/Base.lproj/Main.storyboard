@@ -69,6 +69,7 @@
                     <navigationItem key="navigationItem" title="Justice League" id="k08-Mi-RwT"/>
                     <connections>
                         <outlet property="collectionView" destination="xJ4-dA-weD" id="Ehl-Ym-d2U"/>
+                        <segue destination="6hJ-1D-FEB" kind="show" identifier="navigateToDetail" id="Q1K-94-VvQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -84,7 +85,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yvf-y4-g93" userLabel="Content View">
-                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wGi-vV-ERC">
                                         <rect key="frame" x="8" y="8" width="377" height="508"/>

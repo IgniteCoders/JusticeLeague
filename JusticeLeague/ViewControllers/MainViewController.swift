@@ -27,6 +27,8 @@ class MainViewController: UIViewController, UISearchBarDelegate, UICollectionVie
         findSuperheroBy(name: "a")
     }
     
+    // MARK: CollectionViewDataSource
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return list.count
     }
@@ -38,13 +40,21 @@ class MainViewController: UIViewController, UISearchBarDelegate, UICollectionVie
         return cell
     }
     
+    // MARK: UICollectionViewDelegate
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "navigateToDetail", sender: nil)
+    }
+    
+    // MARK: UICollectionViewDelegateFlowLayout
+    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let columns = 3
         let spacing = (collectionView.collectionViewLayout as! UICollectionViewFlowLayout).minimumInteritemSpacing
         let screenWidth = collectionView.frame.size.width
         let leftSpace = screenWidth - spacing * CGFloat(columns - 1)
         let width = leftSpace / CGFloat(columns) //some width
-        let height = width * 1.25 //ratio
+        let height = width * 1.33 //ratio
         return CGSize(width: width, height: height)
     }
     
@@ -56,13 +66,13 @@ class MainViewController: UIViewController, UISearchBarDelegate, UICollectionVie
         }
     }
     
-    /*override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let detailViewController = segue.destination as! DetailViewController
-        let indexPath = tableView.indexPathForSelectedRow!
+        let indexPath = collectionView.indexPathsForSelectedItems![0]
         let superhero = list[indexPath.row]
         detailViewController.superhero = superhero
-        tableView.deselectRow(at: indexPath, animated: true)
-    }*/
+        collectionView.deselectItem(at: indexPath, animated: true)
+    }
     
     func findSuperheroBy(name: String) {
         Task {
