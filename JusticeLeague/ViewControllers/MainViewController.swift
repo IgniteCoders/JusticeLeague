@@ -52,7 +52,7 @@ class MainViewController: UIViewController, UISearchBarDelegate, UICollectionVie
         let columns = 2
         let spacing = (collectionView.collectionViewLayout as! UICollectionViewFlowLayout).minimumInteritemSpacing
         let screenWidth = collectionView.frame.size.width
-        let leftSpace = screenWidth - spacing * CGFloat(columns - 1)
+        let leftSpace = screenWidth - spacing * CGFloat(columns + 1)
         let width = leftSpace / CGFloat(columns) //some width
         let height = width * 1.33 //ratio
         return CGSize(width: width, height: height)
