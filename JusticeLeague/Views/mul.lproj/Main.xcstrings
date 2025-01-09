@@ -1,0 +1,456 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "1v9-Tg-RoV.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Alignment:\"; ObjectID = \"1v9-Tg-RoV\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Alignment:"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bando:"
+          }
+        }
+      }
+    },
+    "7sN-Ca-r6B.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Combat:\"; ObjectID = \"7sN-Ca-r6B\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Combat:"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Combate:"
+          }
+        }
+      }
+    },
+    "9O2-a2-xNb.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Clark Kent\"; ObjectID = \"9O2-a2-xNb\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Clark Kent"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    },
+    "19v-J7-T0P.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"100\"; ObjectID = \"19v-J7-T0P\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "100"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    },
+    "cMB-TZ-Wmd.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Speed:\"; ObjectID = \"cMB-TZ-Wmd\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Speed:"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velocidad:"
+          }
+        }
+      }
+    },
+    "dI0-sG-ddv.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"dI0-sG-ddv\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    },
+    "HnQ-4H-c9c.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"DC comics\"; ObjectID = \"HnQ-4H-c9c\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "DC comics"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    },
+    "ia1-nW-faT.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"100\"; ObjectID = \"ia1-nW-faT\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "100"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    },
+    "jGf-57-Hci.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Strenght:\"; ObjectID = \"jGf-57-Hci\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Strenght:"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fuerza:"
+          }
+        }
+      }
+    },
+    "JQz-C9-LXJ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"JQz-C9-LXJ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    },
+    "k08-Mi-RwT.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"Justice League\"; ObjectID = \"k08-Mi-RwT\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Justice League"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    },
+    "KRd-D4-Psy.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"100\"; ObjectID = \"KRd-D4-Psy\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "100"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    },
+    "mbe-6F-yvU.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Publisher:\"; ObjectID = \"mbe-6F-yvU\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Publisher:"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Editorial:"
+          }
+        }
+      }
+    },
+    "nH2-Lf-5Sq.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"100\"; ObjectID = \"nH2-Lf-5Sq\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "100"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    },
+    "OmP-O2-sT5.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Intelligence:\"; ObjectID = \"OmP-O2-sT5\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Intelligence:"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inteligencia:"
+          }
+        }
+      }
+    },
+    "Q7u-mF-6KE.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Bueno\"; ObjectID = \"Q7u-mF-6KE\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Bueno"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    },
+    "QCv-nB-hZv.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Stats:\"; ObjectID = \"QCv-nB-hZv\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Stats:"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stats:"
+          }
+        }
+      }
+    },
+    "QHh-RW-Aah.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Power:\"; ObjectID = \"QHh-RW-Aah\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Power:"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poder:"
+          }
+        }
+      }
+    },
+    "QOP-zm-Cy6.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Durability:\"; ObjectID = \"QOP-zm-Cy6\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Durability:"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Durabilidad:"
+          }
+        }
+      }
+    },
+    "qPm-cV-jcW.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"100\"; ObjectID = \"qPm-cV-jcW\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "100"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    },
+    "skB-Q9-nKM.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Real name:\"; ObjectID = \"skB-Q9-nKM\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Real name:"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre real:"
+          }
+        }
+      }
+    },
+    "sQF-st-atB.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Place of birth:\"; ObjectID = \"sQF-st-atB\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Place of birth:"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lugar de nacimiento:"
+          }
+        }
+      }
+    },
+    "UV2-3j-UIb.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Information:\"; ObjectID = \"UV2-3j-UIb\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Information:"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Información:"
+          }
+        }
+      }
+    },
+    "Z1k-Ui-ddn.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"100\"; ObjectID = \"Z1k-Ui-ddn\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "100"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    },
+    "Zdd-vC-gBt.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Kripton\"; ObjectID = \"Zdd-vC-gBt\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Kripton"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
