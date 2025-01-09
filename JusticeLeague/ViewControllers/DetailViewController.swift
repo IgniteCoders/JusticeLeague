@@ -48,13 +48,16 @@ class DetailViewController: UIViewController {
         realNameLabel.text = superhero.biography.realName
         publisherLabel.text = superhero.biography.publisher
         placeOfBirthLabel.text = superhero.biography.placeOfBirth
-        alignmentLabel.text = superhero.biography.alignment.uppercased()
+        //alignmentLabel.text = superhero.biography.alignment.uppercased()
         if (superhero.biography.alignment == "good") {
             alignmentLabel.textColor = UIColor.systemGreen
+            alignmentLabel.text = String(localized: "alignment_good")
         } else if (superhero.biography.alignment == "bad") {
             alignmentLabel.textColor = UIColor.systemRed
+            alignmentLabel.text = String(localized: "alignment_evil")
         } else {
             alignmentLabel.textColor = UIColor.systemGray
+            alignmentLabel.text = String(localized: "alignment_neutral")
         }
         
         // Stats
@@ -73,6 +76,14 @@ class DetailViewController: UIViewController {
         combatProgressView.progress = (Float(superhero.powerstats.combat) ?? 0.0) / 100
     }
     
+    /*override func viewDidAppear(_ animated: Bool) {
+        // create the alert
+        let alert = UIAlertController(title: "My Title", message: "This is my message.", preferredStyle: UIAlertController.Style.actionSheet)
+        // add an action (button)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+        // show the alert
+        self.present(alert, animated: true, completion: nil)
+    }*/
 
     /*
     // MARK: - Navigation
